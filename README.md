@@ -9,4 +9,6 @@ Information about what you'd do next, per above requirements:
 
 I can add a function for error handling, for example, I can check the input type and throw an error if it doesn't match the desired input type.
 
-If the problem expands to millions of robots, maybe I'll do a quick scan of the robot's position. For example, firstly select robots with 100 units of horizontal and vertical distance, then calculate the actual distance of these pre-selected robots and select the optimal one. If there is no robot within 100 units of the x and Y distances, then increase the scanning distance, e.g., 200, 400, etc.
+Besides, to add more flexibility, instead of write the actual url for robots' information in the function, I may include the url as one of the input parameters.
+
+If the problem expands to millions of robots, maybe I'll do a quick scan of the robot's position. For example, firstly select robots with 100 units of horizontal and vertical distance, then calculate the actual distance of these pre-selected robots and select the optimal one. If there is no robot within 100 units of horizontal and vertical distance, then increase the scanning distance, e.g., 200, 400, etc.

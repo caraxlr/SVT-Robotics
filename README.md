@@ -1,13 +1,12 @@
 # SVT-Robotics
 
-instructions for running and testing the function:
+Instructions for running and testing the function:
 
-it's simple, just run all the cells. The input parameters required are loadId(str), x(float), y(float).
+It's simple, just run all the cells. The input parameters required are loadId(str), x(float), y(float).
 The output is a dictionary, including the information of robotId, distanceToGoal and batterylevel.
 
-information about what you'd do next, per above requirements:
+Information about what you'd do next, per above requirements:
 
-I may add a function for error handling, for example, I may check the input type and throws an error if it doesn't match with the required input type.
+I can add a function for error handling, for example, I can check the input type and throw an error if it doesn't match the desired input type.
 
-
-
+If the problem expands to millions of robots, maybe I'll do a quick scan of the robot's position. For example, firstly select robots with 100 units of horizontal and vertical distance, then calculate the actual distance of these pre-selected robots and select the optimal one. If there is no robot within 100 units of the x and Y distances, then increase the scanning distance, e.g., 200, 400, etc.
